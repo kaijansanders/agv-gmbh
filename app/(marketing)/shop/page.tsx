@@ -39,7 +39,7 @@ const shopItems = [
     category: "Wellness & Health",
     items: [
       { name: "Tesla HOME", url: "https://tesla-home.de/customer/?partnerid=100061", desc: "Water vitalization systems for the home. Structured water technology for daily hydration and wellness." },
-      { name: "Tesla MARE", url: "https://share-way.de/customer/?partnerid=100094", desc: "Water treatment for pools, spas, and marine applications. Tesla technology scaled for larger systems." },
+      { name: "Tesla MARE", url: "https://share-way.de/customer/?partnerid=100094", desc: "Tesla Mare is a high-frequency-activated dietary supplement based on cold-microfiltered, hexagonally structured seawater." },
       { name: "AMARE", url: "https://amare.com/de-at/g10/1950597", desc: "Gut-brain axis supplements. The science of how gut health shapes mood, focus, and resilience." },
     ],
   },

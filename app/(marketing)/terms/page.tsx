@@ -35,7 +35,7 @@ export default function TermsPage() {
             <h2 className="text-lg font-semibold text-white">Contact</h2>
             <p>
               For questions regarding these terms, contact us at:<br />
-              contact@agv-gmbh.com
+              contact@agvgmbh.com
             </p>
           </div>
         </div>

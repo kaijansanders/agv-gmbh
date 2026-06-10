@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             <h2 className="text-lg font-semibold text-white">Cookies</h2>
             <p>We use cookies and similar tracking technologies to track activity on our website. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>
             <h2 className="text-lg font-semibold text-white">Contact</h2>
-            <p>For questions about this privacy policy, contact us at:<br />contact@agv-gmbh.com<br />Achim Guha Versand GmbH, Wolfratshauser Str. 53, 82049 Pullach im Isartal, Deutschland</p>
+            <p>For questions about this privacy policy, contact us at:<br />contact@agvgmbh.com<br />Achim Guha Versand GmbH, Wolfratshauser Str. 53, 82049 Pullach im Isartal, Deutschland</p>
           </div>
         </div>
       </section>

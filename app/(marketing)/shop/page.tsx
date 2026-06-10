@@ -35,6 +35,14 @@ const shopItems = [
       { name: "Trezor", url: "https://trezor.go2cloud.org/SH4R", desc: "Open-source hardware wallet. Your keys, your coins." },
     ],
   },
+  {
+    category: "Wellness & Health",
+    items: [
+      { name: "Tesla HOME", url: "https://tesla-home.de/customer/?partnerid=100061", desc: "Water vitalization systems for the home. Structured water technology for daily hydration and wellness." },
+      { name: "Tesla MARE", url: "https://share-way.de/customer/?partnerid=100094", desc: "Water treatment for pools, spas, and marine applications. Tesla technology scaled for larger systems." },
+      { name: "AMARE", url: "https://amare.com/de-at/g10/1950597", desc: "Gut-brain axis supplements. The science of how gut health shapes mood, focus, and resilience." },
+    ],
+  },
 ]
 
 export default function ShopPage() {

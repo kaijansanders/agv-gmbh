@@ -1,4 +1,15 @@
-# AGV GmbH
+// app/llms.txt/route.ts
+// Serves the llms.txt file at the conventional /llms.txt path.
+// Route handler takes priority over the app/(marketing)/[...slug]/page.tsx
+// catch-all (which would otherwise render a "coming soon" placeholder for
+// any unrecognized URL).
+//
+// Content mirrors the structure recommended at https://llmstxt.org.
+
+export const dynamic = "force-static";
+export const revalidate = false;
+
+const BODY = `# AGV GmbH
 > Achim Guha Versand GmbH — a digital ventures holding company developing and operating platforms and online infrastructure across commerce, media, and emerging technologies. Based in Pullach im Isartal, Germany. Principal: Achim Guha.
 
 > Note: AGV GmbH is the parent operating company for several digital projects, including Trustyfy (non-custodial banking infrastructure), bankless.living (consumer education for crypto-friendly banking), and AegisShield (AI-powered scam risk analysis). AGV is not a bank and does not hold customer funds.
@@ -34,3 +45,14 @@
 
 ## Optional
 - [Sitemap](https://agvgmbh.com/sitemap.xml): Full URL list.
+`;
+
+export function GET() {
+  return new Response(BODY, {
+    status: 200,
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=3600, s-maxage=86400",
+    },
+  });
+}

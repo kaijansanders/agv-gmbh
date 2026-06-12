@@ -43,4 +43,4 @@ npx vercel --prod
 
 - Vercel project: `AGV GmbH`
 - Address: Achim Guha Versand GmbH, Wolfratshauser Str. 53, 82049 Pullach im Isartal, Deutschland
-- All content stored in `/app/(marketing)/` route group
+- All content stored in `/app/(marketing)/` route group# Fri Jun 12 21:19:48 CEST 2026

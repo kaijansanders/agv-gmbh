@@ -16,6 +16,11 @@ export default function PagePage({ params }: { params: { slug: string[] } }) {
     notFound()
   }
 
+  // Don't match qr-code sub-routes — they have their own explicit pages
+  if (params.slug[0] === "qr-code") {
+    notFound()
+  }
+
   return (
     <main className="min-h-screen bg-black text-white">
       <div className="container max-w-3xl pt-32 pb-16">

@@ -100,7 +100,7 @@ export default async function middleware(req: NextRequest, ev: any) {
   const llmsResponse = llmsTxtMiddleware(req)
   if (llmsResponse) return llmsResponse
 
-  return authMiddleware(req, ev)
+  return (authMiddleware as (req: NextRequest, ev: any) => Promise<unknown>)(req, ev)
 }
 
 export const config = {

@@ -18,9 +18,9 @@ export default function LevelUpPage() {
               <Image
                 src="/images/level-up-logo.jpg"
                 alt="i-levelup logo"
-                width={240}
-                height={72}
-                className="h-18 w-auto max-w-[240px]"
+                width={600}
+                height={180}
+                className="h-auto w-auto max-w-[600px]"
               />
             </a>
           </div>
